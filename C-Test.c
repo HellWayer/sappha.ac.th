@@ -11,5 +11,12 @@ int main() {
   printf('เลขที่ไร:');
   scanf("%i",pass);
   
-  printf('');
+  printf('ชั้นไร (orly number) :');
+  scanf("%f",fl);
+  
+  printf(
+    "ชื่อ %s", &locker,
+    "เลขที่ %i", &pass,
+    "ชั้น %f", &fl
+  );
 }
